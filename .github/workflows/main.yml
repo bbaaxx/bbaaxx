@@ -14,4 +14,9 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          config_timezone: America/Mexico_City
+          config_presets: "@lunar-red"
           token: ${{ secrets.METRICS_TOKEN }}
+          # base: ""
+          plugin_achievements: yes
+          
